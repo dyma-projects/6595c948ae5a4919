@@ -1,0 +1,21 @@
+<p *ngIf="statut">
+  P1 :<br />
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo
+  libero sollicitudin semper euismod. Donec nibh justo, laoreet quis condimentum
+  eu, consequat non ipsum. Nam viverra quam sed eros venenatis consectetur. Ut
+  ultrices nulla vel lorem ultricies aliquam. Sed eget congue lorem, ut sodales
+  enim. Aliquam ultricies ac ante sit amet pharetra. Aenean tincidunt, mi id
+  lobortis posuere, nibh sapien mollis ipsum, non commodo ipsum turpis et lacus.
+</p>
+<br />
+<br />
+<p *ngIf="!statut">
+  P2 :<br />Vestibulum rhoncus justo tellus. In hac habitasse platea dictumst.
+  Vestibulum viverra facilisis fermentum. Proin dictum facilisis consequat.
+  Vivamus sit amet quam ipsum. Morbi sit amet orci lectus. Sed sit amet mi nec
+  odio dignissim egestas. Pellentesque habitant morbi tristique senectus et
+  netus et malesuada fames ac turpis egestas. Nulla aliquet, turpis vel
+  tincidunt dictum, felis tellus malesuada orci, in porta nunc ipsum vel neque.
+  Nullam vitae accumsan justo.
+</p>
+<button (click)="changeState($event)">click to change state</button>
